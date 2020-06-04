@@ -1,0 +1,335 @@
+
+body
+{
+	background-color:white;
+	background-image: url("hunter-harritt-Ype9sdOPdYc-unsplash.jpg");
+	background-repeat:no-repeat;
+	background-size:1630px;
+	
+}
+.start a
+{
+	text-decoration:none;
+}
+.start a:hover
+{
+	color:red;
+}
+.nav
+	{
+		border:1px;
+		width:100%;
+		height:80px;
+		background-color:black;
+	}
+	ul
+	{
+		float:none;
+		list-style:none;
+		padding:0px;
+		margin:0px;
+		position:absolute;
+
+	}
+	 
+	ul li
+	{
+     float:left;
+     margin-top:0px;
+	}
+	ul li a
+	{
+		width:150px;
+		color:white;
+		display:inline-block;
+		text-decoration:none;
+		font-size:20px;
+		text-align:center;
+		padding:10px;
+		/*border-radius:10px;*/
+		font-weight:bold;
+	}
+	.content a:hover
+	{
+		background: linear-gradient(to right, #ff0000 15%, #ccff99 100%);
+	}
+	ul li ul
+	{
+		background:linear-gradient(to right, #33ccff 15%, #ff99cc 100%);
+	}
+ul li ul li
+{
+	float:none;
+}
+ul li ul
+{
+	display:none;
+}
+ul li:hover ul
+{
+ display:block;
+}
+h1
+{
+	margin:0px;
+	padding:0px	;
+	background-size:fixed;
+	font-size: 10px;
+}
+input[type="text"]
+{
+	margin-left:1000px;
+	height:31px;
+	width:250px;
+	margin-top:7.5px;
+}
+footer
+{
+	float:right;
+	margin-top:0px;
+	font-size:20px;
+	color:red;
+	margin-top:15px;
+	color:blue;
+}
+button
+{
+	width:60px;
+	height:30px;
+	background-color:#0390fc;
+	cursor:pointer;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	margin-top:8px;
+	border:0px;
+	color:white;
+}
+button:hover
+{
+	background:blue;
+}
+h4
+{
+	text-shadow:2px 3px blue;
+	font-size:50px;
+	margin-top:200px;
+	color:white;
+	text-align:center;
+}
+#result::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+i
+{
+	color:white;
+	margin-left:5px;
+}
+img
+{
+	width:200px;
+	height:300px;
+}
+.box
+{
+	border:1px solid red;
+	width:100%;
+	height:200px;
+	background:linear-gradient(to right, #33ccff 15%, #ff99cc 100%);
+	/*background-image:url("ilya-pavlov-OqtafYT5kTw-unsplash.jpg");*/
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.box1
+{
+	border:1px solid red;
+	width:100%;
+	height:200px;
+	background-color:#4169E1;
+	background:linear-gradient(to right, #33ccff 15%, #ff99cc 100%);
+	/*background-image:url("ilya-pavlov-OqtafYT5kTw-unsplash.jpg");*/
+	background-repeat:no-repeat;
+	background-size:100%px;
+}
+.box2
+{
+	border:1px solid red;
+	width:100%;
+	height:200px;
+	background-color:#4169E1;
+	background:linear-gradient(to right, #33ccff 5%, #ff99cc 100%);
+	/*background-image:url("ilya-pavlov-OqtafYT5kTw-unsplash.jpg");*/
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.box:hover
+{
+	 box-shadow:2px 3px red,
+	             2px 3px red,
+	             2px 3px red;
+}
+.box1:hover
+{
+      box-shadow:2px 3px red,
+	             2px 3px red,
+	             2px 3px red;	 
+}
+.box2:hover
+{
+	box-shadow:2px 3px red,
+	             2px 3px red,
+	             2px 3px red;
+	 
+}
+.box h1
+{
+	margin-left:8%;
+	margin-top:60px;
+	font-size:30px;
+	color:white;
+	text-shadow:2px 3px red;
+}
+.box1 h1
+{
+	margin-left:9%;
+	margin-top:60px;
+	font-size:30px;
+	color:white;
+	text-shadow:2px 3px red;
+}
+.box2 h1
+{
+	margin-left:4%;
+	margin-top:60px;
+	font-size:30px;
+	color:white;
+	text-shadow:2px 3px red;
+}
+.box p
+{
+	color:white;
+	margin-left:50px;
+	font-weight:bold;
+	text-shadow:2px 1px black;
+	font-size:20px;
+}
+.box1 p
+{
+	color:white;
+	margin-left:80px;
+	font-weight:bold;
+	text-shadow:2px 1px black;
+	font-size:20px;
+}
+.box2 p
+{
+	color:white;
+	margin-left:70px;
+	font-weight:bold;
+	text-shadow:2px 1px black;
+	font-size:20px;
+}
+.box p:after
+{
+	 content:"HTML to define the content of webpages.";
+	 margin-left:50px;
+	 text-decoration:none;
+}
+.box1 p:after
+{
+	 content:"CSS to specify the layout of webpages.";
+	 margin-left:80px;
+	 text-decoration:none;
+}
+.box2 p:after
+{
+	 content:"Java script to program the behavior of webpages.";
+	 margin-left:70px;
+	 text-decoration:none;
+}
+ol
+{
+	margin-left:300px;
+	color:white;
+}
+.box button:hover
+{
+	background-color:green;
+}
+.box1 button:hover
+{
+	background-color:green;
+}
+.box2 button:hover
+{
+	background-color:green;
+}
+.new
+{
+border:0px solid black;
+background-color:#24272b;
+width:100% absolutes;
+height:200px;
+position:auto;
+}
+.new li
+{
+ display:inline-block;
+ width:250px;
+ margin:0;
+ padding:0;
+}
+.new h1
+{
+	font-size:25px;
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+}
+.new ol
+{
+	margin:0px;
+}
+.new p
+{
+	font-weight:bold;
+}
+.new a
+{
+	color:white;
+	text-decoration:none;
+}
+.new  ol li a:hover
+{
+	border-bottom:1px solid white;
+}
+.mid button
+{
+  margin-bottom:100px;
+  background-color:#990505;
+  width:150px;
+  margin-left:45%;
+  border-radius:10px;
+}
+.mid a
+{
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+
+}
+.mid button:hover
+{
+	background-color:red;
+}
+.mid p
+{
+	text-align:center;
+	margin-top:18px;
+	font-size:15px;
+}

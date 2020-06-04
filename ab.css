@@ -1,0 +1,31 @@
+h1
+{
+	text-align:center;
+	color:red;
+	text-shadow:1px 4px 15px,
+	             1px 4px 15px,
+	             1px 4px 15px;
+	  padding:0px;
+	  margin:0px;
+	  font-size: 40px;
+
+}
+body
+{
+	background-color: black;
+}
+h2{
+color:green;
+
+font-size:40px;
+margin-left:40px;
+margin-right:40px;
+}
+p{
+  font-size:20px;
+}
+
+h1
+{
+	font-color:white;
+}
